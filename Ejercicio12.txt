@@ -1,0 +1,23 @@
+Algoritmo Ejercicio12
+	M <- 0
+	F <- 0
+	edades <- 0
+	Mientras altura>0 Hacer
+		Escribir 'Ingrese el sexo F/M'
+		Leer s
+		Escribir 'Ingrese la edad: '
+		Leer e
+		Escribir 'Ingrese la altura: '
+		Leer altura
+		Si s=='F' Entonces
+			F <- (F+altura)/2
+		FinSi
+		Si s=='M' Entonces
+			M <- (M+altura)/2
+		FinSi
+		edades <- (edades+e)/2
+	FinMientras
+	Escribir 'Promedio altura mujeres: ',F
+	Escribir 'Promedio altura varones: ',M
+	Escribir 'Promedio edades participantes: ',edades
+FinAlgoritmo
